@@ -19,3 +19,6 @@ Pour eviter les erreurs de dependance, il faudra lancer la commande suivante afi
 Pour lancer le serveur:
 
     ng serve
+
+
+Lien github du projet: https://github.com/Itokiana/angular-blog
