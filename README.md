@@ -1,28 +1,21 @@
-# AngularApp
+# Angular blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+Vous allez créer une application simple de type blog. Cette application va afficher les posts du blog, et chaque post aura un bouton permettant de "love it" ou de "don't love it". Chaque post aura la forme suivante :
 
-## Development server
+    `post: { title: string, content: string,loveIts: number, created_at: Date }`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Quand un post a plus de "love it" que de "don't love it" (loveIts > 0), il sera coloré en vert, et inversement quand loveIts < 0, il sera coloré en rouge.
 
-## Code scaffolding
+# Lancement du projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation des modules necessaires
 
-## Build
+Pour eviter les erreurs de dependance, il faudra lancer la commande suivante afin d'installer les modules necessaires:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    npm install
 
-## Running unit tests
+## Lancement du serveur
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Pour lancer le serveur:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# angular-blog
+    ng serve
